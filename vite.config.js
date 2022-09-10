@@ -2,5 +2,5 @@ export default {
   build: {
     sourcemap: true,
   },
-  base: '/ol-vite-gp/'
+  base: '/ol_vite_gp/'
 }
