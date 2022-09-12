@@ -52,6 +52,7 @@ button {
 html, body {
   margin: 0;
   height: 100%;
+  overflow: hidden;
 }
 
 .app{
@@ -59,14 +60,15 @@ html, body {
 }
 
 #map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: calc(100vw - 2rem - 32px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(100vw - 2rem - 32px);
   
-  @media (max-width: 768px) {
-        padding-left: calc(2rem - 32px);
-        width: calc(100vw - 2rem + 32px);
+    @media (max-width: 768px) {
+        // left: calc(2rem + 32px);
+        padding-left: calc(2rem + 32px);
+        width: calc(100vw);
     }
 }
 
